@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="15" styleClass="fondo-resultados" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.javaquiz.ClasificacionController">
+    <children>
+        <Label text="¡Quiz Finalizado!" styleClass="titulo-principal" />
+        <Label fx:id="lblAciertos" />
+        <Label fx:id="lblErrores" />
+        <Label fx:id="lblNota" styleClass="texto-destacado" />
+        <HBox alignment="CENTER" spacing="10">
+            <TextField fx:id="txtNombre" promptText="Tu nombre" />
+            <Button fx:id="btnGuardar" text="Guardar" onAction="#accionGuardar" />
+        </HBox>
+        <Button text="Volver al Inicio" onAction="#accionVolver" prefWidth="150" />
+    </children>
+</VBox>

@@ -1,0 +1,15 @@
+¿Qué tipo de dato usarías para almacenar un solo carácter?;String;char;int;float;2
+¿Qué operador se utiliza para comparar si dos variables de tipo primitivo son iguales?;=;==;equals;match;2
+¿Qué bucle garantiza que el código se ejecute al menos una vez?;for;while;do-while;foreach;3
+¿Cuál es la salida de un bucle 'while(false)'?;Se ejecuta una vez;Bucle infinito;Error de compilación;No se ejecuta nunca;4
+¿Cómo se obtiene el número de elementos de un array llamado datos?;datos.size();datos.length;datos.length();datos.count;2
+¿Cuál es la forma correcta de declarar e inicializar un array de 5 elementos en Java?;int[] array = new int[5];int array = new int(5);int array[5];int[] array = int[5];1
+¿Qué palabra clave se usa para crear una nueva instancia de una clase?;new;create;instance;class;1
+¿Qué palabra clave se usa dentro de un constructor para llamar al constructor de la clase padre?;this;super;parent;base;2
+¿Se pueden crear objetos directamente a partir de una interfaz o una clase abstracta?;Sí, de ambas;No, de ninguna;Solo de la clase abstracta;Solo de la interfaz;2
+¿Cuál es el modificador de acceso que permite visibilidad solo dentro del mismo paquete y subclases?;public;private;protected;default;3
+¿Qué clase de excepción se debe capturar obligatoriamente al trabajar con lectura de archivos?;NullPointerException;IOException;RuntimeException;ArithmeticException;2
+¿Qué palabra clave se añade a la declaración de un método para indicar que puede lanzar una excepción?;throw;throws;try;catch;2
+¿Qué objeto de JavaFX representa la ventana física principal del sistema?;Scene;Stage;Pane;VBox;2
+¿Qué clase de contenedor organiza a sus hijos en una única fila horizontal en JavaFX?;VBox;HBox;GridPane;StackPane;2
+¿Qué método de la clase Button se utiliza para asociar una acción cuando el usuario hace clic?;setOnAction;setClick;addListener;onAction;1
